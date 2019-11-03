@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_normal_left">4dp</dimen>
+    <dimen name="padding_normal_right">4dp</dimen>
+    <dimen name="padding_normal_top">4dp</dimen>
+    <dimen name="padding_normal_bottom">4dp</dimen>
+    <dimen name="padding_normal">4dp</dimen>
+
+
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_normal_left">8dp</dimen>
+    <dimen name="margin_normal_right">8dp</dimen>
+    <dimen name="margin_normal_top">8dp</dimen>
+    <dimen name="margin_normal_bottom">8dp</dimen>
+
+
+    <!--Text sizes start-->
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+
+</resources>

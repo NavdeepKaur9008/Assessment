@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <!--    Main Screen Strings-->
+    <string name="label_create_prod1">Create First Product</string>
+    <string name="label_create_prod2">Create Second Product</string>
+    <string name="label_create_prod3">Create Third Product</string>
+
+    <string name="label_show_prod">Show Products</string>
+    <string name="label_product_details">Product Details</string>
+    <string name="tableName">Product</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,81 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:565403835056279854",
+      "lastPropertyId": "9:180237644673134223",
+      "name": "ProductEntity",
+      "properties": [
+        {
+          "id": "1:3963440602001228039",
+          "name": "sno",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:279664284784277059",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:6070927271331779119",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:5923680830962288359",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "5:1375114077885737061",
+          "name": "regularPrice",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "6:2879363033213608687",
+          "name": "salePrice",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "7:3019132445951529233",
+          "name": "productPhoto",
+          "type": 9
+        },
+        {
+          "id": "8:8612288856019796833",
+          "name": "colors",
+          "type": 9
+        },
+        {
+          "id": "9:180237644673134223",
+          "name": "store",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:1317270391209011982",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    1317270391209011982
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    7138590711426695431,
+    8864416937649219528,
+    6075876902620990972
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

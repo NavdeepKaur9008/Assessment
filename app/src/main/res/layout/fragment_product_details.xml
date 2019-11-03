@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:clickable="false"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        android:padding="@dimen/padding_normal"
+        android:layout_margin="@dimen/margin_normal"
+        android:id="@+id/product_details_card"
+        app:cardCornerRadius="@dimen/padding_normal"
+        android:animateLayoutChanges="true"
+        app:cardBackgroundColor="@color/white"
+        tools:context=".home.ProductDetailsFragment"
+        >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:padding="@dimen/padding_normal"
+            android:layout_margin="@dimen/margin_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_large"
+            android:text="@string/label_product_details"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/img_product"></ImageView>
+        <TextView
+            android:id="@+id/tv_prod_id"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tv_prod_name"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tv_prod_description"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tv_prod_regular_price"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tv_prod_sale_price"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tv_prod_colors"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:padding="@dimen/padding_normal"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_margin="@dimen/margin_normal"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="Update"></Button>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_margin="@dimen/margin_normal"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="Delete"></Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
